@@ -3,154 +3,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Djuphelg Gullmarn – en deltagardriven helg för fridykning, gemenskap och delade gåvor.">
+  <meta name="description" content="Djuphelg – Gullmarn, en deltagardriven fridykningshelg 14–16 augusti 2026 vid Fossens Camping.">
   <title>Djuphelg – Gullmarn</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    :root{--bg:#071b1e;--bg-soft:#0d292d;--surface:#f4f1e8;--text:#f4f1e8;--text-dark:#102629;--muted:#b7c7c5;--accent:#d8efdf;--accent-dark:#143d35;--line:rgba(244,241,232,.18);--max-width:760px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:18px;line-height:1.65;text-rendering:optimizeLegibility}a{color:inherit}.container{width:min(calc(100% - 40px),var(--max-width));margin-inline:auto}.hero{min-height:86vh;display:grid;align-items:end;padding:72px 0 64px;background:linear-gradient(180deg,rgba(7,27,30,.18),rgba(7,27,30,.94)),radial-gradient(circle at 72% 20%,#24575a 0,transparent 42%),linear-gradient(145deg,#0d3438,#071b1e 68%)}.eyebrow{margin:0 0 14px;color:var(--muted);font-size:.82rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}h1,h2{margin:0;line-height:1.08;letter-spacing:-.035em}h1{max-width:720px;font-size:clamp(3.2rem,10vw,6.4rem);font-weight:760}h2{margin-bottom:28px;font-size:clamp(2.1rem,7vw,3.6rem)}.lead{max-width:650px;margin:26px 0 0;color:var(--muted);font-size:clamp(1.25rem,3vw,1.55rem);line-height:1.45}.event-meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin:30px 0;font-weight:650}.button{display:inline-block;padding:14px 21px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--accent-dark);font-weight:760;text-decoration:none;transition:transform 150ms ease,background 150ms ease}.button:hover,.button:focus-visible{transform:translateY(-2px);background:#eef8f0}main section{padding:88px 0;border-top:1px solid var(--line)}main section:nth-child(even){background:var(--bg-soft)}p{margin:0 0 1.15em}.large-copy{font-size:clamp(1.2rem,3vw,1.42rem);line-height:1.55}.principle{margin-top:34px;padding-left:22px;border-left:3px solid var(--accent);color:var(--muted);font-size:1.08rem}.practical-list{display:grid;gap:18px;margin:0;padding:0;list-style:none}.practical-list li{padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}.practical-list strong{display:block;margin-bottom:4px;color:var(--accent)}.info-card{padding:clamp(28px,7vw,48px);border-radius:20px;background:var(--surface);color:var(--text-dark)}.info-grid{display:grid;grid-template-columns:1fr;gap:18px;margin:30px 0}.info-item{padding-bottom:18px;border-bottom:1px solid rgba(16,38,41,.16)}.info-item:last-child{border-bottom:0}.info-item span{display:block;margin-bottom:3px;color:#496260;font-size:.82rem;font-weight:750;letter-spacing:.08em;text-transform:uppercase}.info-card .button{border-color:var(--accent-dark);background:var(--accent-dark);color:white}.info-card .button:hover,.info-card .button:focus-visible{background:#215749}.small{margin-top:18px;color:#526765;font-size:.9rem}footer{padding:36px 0 50px;color:var(--muted);font-size:.9rem;text-align:center}@media(min-width:680px){.info-grid{grid-template-columns:1fr 1fr}.info-item:nth-last-child(-n+2){border-bottom:0}}
+  </style>
 </head>
 <body>
   <header class="hero">
-    <nav class="nav wrap" aria-label="Huvudmeny">
-      <a class="brand" href="#top">DJUPHELG</a>
-      <a class="nav-link" href="#praktiskt">14–16 augusti</a>
-    </nav>
-
-    <div class="hero-inner wrap" id="top">
-      <p class="eyebrow">Gullmarn · Fossens Camping</p>
-      <h1>Vi skapar<br>djuphelgen tillsammans.</h1>
-      <p class="lead">
-        En deltagardriven helg för fridykning, gemenskap och gåvor.
-        Ingen publik. Inga färdiga kunder. Alla kan bidra.
-      </p>
-      <div class="actions">
-        <a class="button primary" href="#om">Läs om helgen</a>
-        <a class="button secondary" href="#praktiskt">Praktisk information</a>
-      </div>
-    </div>
-
-    <div class="depth-lines" aria-hidden="true">
-      <span>10 m</span><span>20 m</span><span>30 m</span><span>40 m</span>
+    <div class="container">
+      <p class="eyebrow">14–16 augusti 2026 · Gullmarn</p>
+      <h1>Djuphelg</h1>
+      <p class="lead">En deltagardriven fridykningshelg där vi skapar träning, lärande och gemenskap tillsammans.</p>
+      <div class="event-meta" aria-label="Praktisk sammanfattning"><span>Fossens Camping</span><span>Ingen deltagaravgift</span></div>
+      <a class="button" href="#anmalan">Anmäl intresse</a>
     </div>
   </header>
-
   <main>
-    <section class="section intro" id="om">
-      <div class="wrap narrow">
-        <p class="eyebrow">En pilothelg</p>
-        <h2>Ramen finns. Innehållet skapar vi.</h2>
-        <p class="large">
-          Djuphelg är ett experiment i hur ett fridykningsevenemang kan fungera
-          när deltagarna inte bara anmäler sig till ett program, utan själva
-          formar det.
-        </p>
-        <p>
-          Någon håller en workshop. Någon lagar middag. Någon lånar ut en boj,
-          hämtar en deltagare vid stationen, diskar eller delar en erfarenhet.
-          Synliga och osynliga bidrag är lika viktiga.
-        </p>
+    <section id="vision">
+      <div class="container">
+        <p class="eyebrow">Visionen</p>
+        <h2>Vi gör helgen tillsammans</h2>
+        <div class="large-copy">
+          <p>Djuphelg är ett försök att skapa en fridykningshelg där deltagarna inte bara kommer till ett färdigt arrangemang, utan själva bidrar till det som händer.</p>
+          <p>Någon håller en workshop. Någon coachar. Någon lagar mat, hjälper till med utrustning eller tar ansvar för en praktisk detalj. Bidragen kan vara stora eller små.</p>
+        </div>
+        <p class="principle">Vi värderar inte bidrag efter hur synliga de är, utan efter att de ges.</p>
       </div>
     </section>
-
-    <section class="section principles">
-      <div class="wrap">
+    <section id="praktiskt">
+      <div class="container">
         <p class="eyebrow">Så fungerar det</p>
-        <div class="grid three">
-          <article>
-            <span class="number">01</span>
-            <h3>Delta</h3>
-            <p>Du kommer inte som kund eller publik. Du är med och gör helgen till vad den blir.</p>
-          </article>
-          <article>
-            <span class="number">02</span>
-            <h3>Ge</h3>
-            <p>En gåva kan vara kunskap, tid, mat, utrustning, skjuts eller omtanke.</p>
-          </article>
-          <article>
-            <span class="number">03</span>
-            <h3>Ta ansvar</h3>
-            <p>Vi hjälps åt med säkerhet, logistik och det praktiska runt omkring.</p>
-          </article>
-        </div>
+        <h2>Praktiskt under helgen</h2>
+        <ul class="practical-list">
+          <li><strong>Dykning med tydlig säkerhet</strong>Dykpassen samordnas med buddy-system, säkerhetsrutiner och nivåanpassning i fokus.</li>
+          <li><strong>Deltagarna skapar innehållet</strong>Initiativ som coachning, workshops, gemensamma måltider och andra aktiviteter växer fram ur gruppen.</li>
+          <li><strong>Eget ansvar</strong>Var och en ordnar resa, boende på eller nära Fossens Camping, mat och personlig utrustning.</li>
+          <li><strong>En första provomgång</strong>Vi testar formatet i mindre skala och utvecklar det tillsammans inför möjliga framtida helger.</li>
+        </ul>
       </div>
     </section>
-
-    <section class="section dark">
-      <div class="wrap split">
-        <div>
-          <p class="eyebrow">Det gemensamma dyket</p>
-          <h2>Ett djup som alla kan uppleva.</h2>
-        </div>
-        <div>
-          <p class="large">
-            Under helgen gör vi ett guidat visualiserat fridyk genom Gullmarn.
-            Du behöver inte själv ha varit på det djupet tidigare.
-          </p>
-          <p>
-            Vi följer linan ned genom ljus, tryck och stillhet – och kanske också
-            en bit djupare in i oss själva. Första året leds dyket av initiativtagaren.
-            Framöver kan en deltagare ge gruppen sitt eget djupdyk.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section gifts">
-      <div class="wrap">
-        <p class="eyebrow">Vad kan en gåva vara?</p>
-        <div class="gift-list">
-          <span>En workshop</span>
-          <span>Ett safetypass</span>
-          <span>En middag</span>
-          <span>Skjuts</span>
-          <span>En boj</span>
-          <span>Disk</span>
-          <span>Morgonkaffe</span>
-          <span>En berättelse</span>
-          <span>Att se vad som behövs</span>
-        </div>
-        <p class="manifesto">Vi värderar inte gåvor efter hur synliga de är, utan efter att de ges.</p>
-      </div>
-    </section>
-
-    <section class="section practical" id="praktiskt">
-      <div class="wrap">
-        <p class="eyebrow">Praktiskt</p>
-        <h2>Djuphelg – Gullmarn</h2>
-        <div class="grid practical-grid">
-          <div>
-            <h3>När</h3>
-            <p>14–16 augusti 2026</p>
+    <section id="anmalan">
+      <div class="container">
+        <div class="info-card">
+          <p class="eyebrow">Kort information</p>
+          <h2>Anmälan</h2>
+          <div class="info-grid">
+            <div class="info-item"><span>Datum</span>14–16 augusti 2026</div>
+            <div class="info-item"><span>Plats</span>Fossens Camping, Gullmarn</div>
+            <div class="info-item"><span>Kostnad</span>Ingen deltagaravgift. Eget boende, resa och mat.</div>
+            <div class="info-item"><span>Förkunskapskrav</span>Genomförd CMAS One Star Apnea eller motsvarande fridykningskurs.</div>
           </div>
-          <div>
-            <h3>Var</h3>
-            <p>Fossens Camping vid Gullmarn</p>
-          </div>
-          <div>
-            <h3>Kostnad</h3>
-            <p>Ingen deltagaravgift. Du betalar egen resa, camping och mat.</p>
-          </div>
-          <div>
-            <h3>För vem</h3>
-            <p>Fridykare som vill delta, dela och bidra – oavsett personbästa.</p>
-          </div>
-        </div>
-
-        <div class="notice">
-          <div>
-            <p class="eyebrow">Anmälan</p>
-            <h3>Mer information kommer snart.</h3>
-            <p>Den här sidan är under uppbyggnad medan pilothelgen tar form.</p>
-          </div>
-          <a class="button primary" href="mailto:info@djuphelg.se">Kontakta oss</a>
+          <p>Det här är en begränsad provomgång. Skicka ett mejl med några rader om din fridykningsbakgrund och hur du skulle vilja bidra under helgen.</p>
+          <a class="button" href="mailto:info@djuphelg.se?subject=Intresseanmälan%20Djuphelg%202026">Anmäl intresse via mejl</a>
+          <p class="small">Kontakt: <a href="mailto:info@djuphelg.se">info@djuphelg.se</a></p>
         </div>
       </div>
     </section>
   </main>
-
-  <footer>
-    <div class="wrap footer-inner">
-      <p>Djuphelg · Gullmarn</p>
-      <p>En helg vi skapar tillsammans.</p>
-    </div>
-  </footer>
+  <footer><div class="container">Djuphelg – Gullmarn · 2026</div></footer>
 </body>
 </html>
