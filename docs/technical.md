@@ -30,6 +30,8 @@ Verifierat:
 - Svar kan skickas så mottagaren ser `info@djuphelg.se` som avsändare.
 - Open Graph/Twitter-metadata finns i `index.html`.
 - Social delningsbild finns i `assets/og-image.jpg` och är 1200x630.
+- Facebook-preview har testats i Facebook Sharing Debugger efter publicering och ser bra ut.
+- Favicon finns som SVG, 32x32 PNG och Apple touch icon.
 
 ## GitHub Pages
 
@@ -98,8 +100,7 @@ Formuläret har testats.
 
 Högst prioriterat:
 
-- Testa Facebook-preview igen efter publicering.
-- Lägg till favicon.
+- Göra en sista helhetsläsning av publika sidan.
 
 Övrigt:
 

@@ -133,12 +133,14 @@ Klart:
 - Open Graph-metadata för Facebook-preview finns i `index.html`.
 - Twitter card-metadata finns i `index.html`.
 - Social delningsbild finns i `assets/og-image.jpg` och är 1200x630.
+- Facebook-preview har testats i Facebook Sharing Debugger efter publicering och ser bra ut.
+- Favicon finns som `assets/favicon.svg`, `assets/favicon-32.png` och `assets/apple-touch-icon.png`.
+- Nuvarande bilder är tagna av Max och får användas på sidan.
 
 Kvar:
 
-- Testa Facebook-preview igen efter publicering.
-- Lägg till favicon.
-- Kontrollera bildrättigheter.
+- Göra en sista helhetsläsning av publika sidan som Facebook-besökare.
+- Bedöma om säkerhetstexten på sidan är lagom tydlig.
 
 Möjliga framtida tillägg:
 

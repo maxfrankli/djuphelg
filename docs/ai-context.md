@@ -169,10 +169,8 @@ E-post:
 
 Högst värde härnäst:
 
-- Testa Facebook-preview igen efter publicering.
-- Lägg till favicon.
-- Säkerställ bildrättigheter.
-- Ta fram riktig säkerhetsplan.
+- Göra en sista helhetsläsning av publika sidan som Facebook-besökare.
+- Säkerhetsplanen återstår för eventet, men ska inte prioriteras i webbplatsarbetet just nu.
 
 ## Arbetsprincip
 

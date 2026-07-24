@@ -4,17 +4,16 @@ Senast uppdaterad: 2026-07-24
 
 ## Nästa högsta prioritet
 
-- [x] Lägg till Open Graph-metadata för Facebook-preview.
-- [x] Lägg till social delningsbild.
-- [ ] Lägg till favicon.
-- [ ] Kontrollera bildrättigheter för nuvarande bilder.
+- [ ] Göra en sista helhetsläsning av publika sidan som Facebook-besökare.
+- [ ] Bedöm om säkerhetstexten på sidan är lagom tydlig.
 
 ## Webbplats
 
-- [ ] Göra en sista helhetsläsning av publika sidan som Facebook-besökare.
-- [ ] Bedöm om säkerhetstexten på sidan är lagom tydlig.
 - [ ] Lägg eventuellt till enklare SEO-metadata utöver social preview.
-- [ ] Testa Facebook-preview igen efter publicering.
+- [x] Testa Facebook-preview igen efter publicering.
+- [x] Lägg till Open Graph-metadata för Facebook-preview.
+- [x] Lägg till social delningsbild.
+- [x] Lägg till favicon.
 
 ## Klart för webb och teknik
 
@@ -46,6 +45,7 @@ Senast uppdaterad: 2026-07-24
 - [x] Publika sidan beskriver 2026 som en första provomgång i praktiska delen.
 - [x] Fossens Camping är länkad.
 - [x] Externa länkar öppnas i ny flik.
+- [x] Nuvarande bilder är tagna av Max och får användas på sidan.
 
 ## Eventplanering kvar
 
