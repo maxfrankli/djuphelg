@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Djuphelg – Gullmarn, en deltagardriven fridykningshelg 14–16 augusti 2026 vid Fossens Camping.">
+  <meta name="description" content="Djuphelg - Gullmarn, en deltagardriven fridykningshelg 14-16 augusti 2026 vid Fossens Camping.">
   <meta name="theme-color" content="#071a1d">
-  <title>Djuphelg – Gullmarn</title>
+  <title>Djuphelg - Gullmarn</title>
 
   <style>
     :root {
@@ -18,7 +18,6 @@
       --sea-dark: #315d5c;
       --sun: #f0d19a;
       --line-light: rgba(255, 255, 255, 0.18);
-      --line-dark: rgba(16, 39, 42, 0.16);
       --max: 820px;
     }
 
@@ -91,37 +90,28 @@
     h2 {
       margin: 0;
       line-height: 1.04;
-      letter-spacing: -0.045em;
+      letter-spacing: 0;
     }
 
     h1 {
       max-width: 760px;
-      font-size: clamp(3.8rem, 12vw, 7.2rem);
+      font-size: clamp(3.8rem, 6rem, 7.2rem);
       font-weight: 790;
       text-shadow: 0 3px 28px rgba(0, 0, 0, 0.52);
     }
 
     h2 {
       margin-bottom: 28px;
-      font-size: clamp(2.25rem, 7vw, 4rem);
+      font-size: clamp(2.25rem, 3rem, 4rem);
     }
 
     .lead {
       max-width: 650px;
       margin: 24px 0 0;
       color: #f1f1e8;
-      font-size: clamp(1.18rem, 3vw, 1.55rem);
+      font-size: clamp(1.18rem, 1.35rem, 1.55rem);
       line-height: 1.45;
       text-shadow: 0 2px 18px rgba(0, 0, 0, 0.68);
-    }
-
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px 22px;
-      margin: 30px 0;
-      font-weight: 700;
-      text-shadow: 0 2px 16px rgba(0, 0, 0, 0.68);
     }
 
     .button {
@@ -134,6 +124,10 @@
       text-decoration: none;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
       transition: transform 150ms ease, background 150ms ease;
+    }
+
+    .hero .button {
+      margin-top: 28px;
     }
 
     .button:hover,
@@ -156,7 +150,7 @@
     }
 
     .large-copy {
-      font-size: clamp(1.2rem, 3vw, 1.45rem);
+      font-size: clamp(1.2rem, 1.32rem, 1.45rem);
       line-height: 1.55;
     }
 
@@ -249,6 +243,7 @@
     }
 
     .signup-card .button {
+      margin-top: 26px;
       background: var(--sun);
     }
 
@@ -275,6 +270,16 @@
       }
     }
 
+    @media (max-width: 520px) {
+      h1 {
+        font-size: 3.8rem;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+      }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       html {
         scroll-behavior: auto;
@@ -290,19 +295,14 @@
 <body>
   <header class="hero">
     <div class="container hero-inner">
-      <p class="eyebrow">14–16 augusti 2026 · Gullmarn</p>
+      <p class="eyebrow">14-16 augusti 2026 · Gullmarn</p>
       <h1>Djuphelg</h1>
       <p class="lead">
-        En deltagardriven fridykningshelg där vi skapar träning,
-        lärande och gemenskap tillsammans.
+        En deltagardriven fridykningshelg för dig som vill träna djup,
+        dela kunskap och skapa helgen tillsammans.
       </p>
 
-      <div class="meta" aria-label="Praktisk sammanfattning">
-        <span>Fossens Camping</span>
-        <span>Ingen deltagaravgift</span>
-      </div>
-
-      <a class="button" href="#anmalan">Anmäl intresse</a>
+      <a class="button" href="#anmalan">Anmäl dig</a>
     </div>
   </header>
 
@@ -314,20 +314,21 @@
 
         <div class="large-copy">
           <p>
-            Djuphelg är ett försök att skapa en fridykningshelg där deltagarna
-            inte bara kommer till ett färdigt arrangemang, utan själva bidrar
-            till det som händer.
+            Djuphelg är inte ett färdigt arrangemang där några få skapar
+            programmet och resten deltar. Ramen finns: plats, dyklogistik,
+            säkerhet och gemensam riktning.
           </p>
 
           <p>
-            Någon håller en workshop. Någon coachar. Någon lagar mat,
-            hjälper till med utrustning eller tar ansvar för en praktisk detalj.
-            Bidragen kan vara stora eller små.
+            Innehållet växer sedan fram ur gruppen. Någon håller en workshop,
+            någon coachar, någon fixar fika eller mat, hjälper till med
+            utrustning eller tar ansvar för en praktisk detalj.
           </p>
         </div>
 
         <p class="principle">
-          Vi värderar inte bidrag efter hur synliga de är, utan efter att de ges.
+          Tanken är enkel: ser du något som skulle göra helgen bättre, större
+          eller lättare för någon annan, så är det värt att göra.
         </p>
       </div>
     </section>
@@ -339,24 +340,36 @@
 
         <ul class="practical-list">
           <li>
-            <strong>Dykning med tydlig säkerhet</strong>
-            Dykpassen samordnas med buddy-system, säkerhetsrutiner och
-            nivåanpassning i fokus.
+            <strong>Två djupdykspass per dag</strong>
+            Lördag och söndag finns två planerade ramar för djupdykning per dag.
+            Själva passen bygger på att deltagarna dyker, hjälper till och tar
+            ansvar tillsammans.
+          </li>
+          <li>
+            <strong>Säkerhet först</strong>
+            Dykpar matchas efter nivå och fungerar som buddy och säkerhetsdykare
+            för varandra. Mer oerfarna dykare får stöd av säkerhetsdykare
+            och/eller coacher under passen.
           </li>
           <li>
             <strong>Deltagarna skapar innehållet</strong>
-            Initiativ som coachning, workshops, gemensamma måltider och andra
-            aktiviteter växer fram ur gruppen.
+            Workshops, coachning, erfarenhetsutbyte, samtal, gemensamma
+            måltider, transport, utrustningshjälp och andra initiativ växer fram
+            ur deltagarna.
           </li>
           <li>
             <strong>Eget ansvar</strong>
-            Var och en ordnar resa, boende på eller nära Fossens Camping,
-            mat och personlig utrustning.
+            Var och en ordnar resa, boende, mat och personlig utrustning. Helgen
+            utgår från <a href="https://fossencamping.se/" target="_blank" rel="noopener noreferrer">Fossens Camping</a>
+            och tanken är att de flesta bor där, men det går också bra att lösa
+            boende på annat sätt.
           </li>
           <li>
             <strong>En första provomgång</strong>
-            Vi testar formatet i mindre skala och utvecklar det tillsammans
-            inför möjliga framtida helger.
+            I år testar vi Djuphelg i mindre omfattning för att se hur formatet
+            kan fungera, växa och utvecklas inför möjliga större arrangemang i
+            framtiden. Om fler anmäler sig än det finns plats för gäller först
+            till kvarn.
           </li>
         </ul>
       </div>
@@ -371,39 +384,41 @@
           <div class="info-grid">
             <div class="info-item">
               <span>Datum</span>
-              14–16 augusti 2026
+              14-16 augusti 2026
             </div>
 
             <div class="info-item">
               <span>Plats</span>
-              Fossens Camping, Gullmarn
+              <a href="https://fossencamping.se/" target="_blank" rel="noopener noreferrer">Fossens Camping</a>, Gullmarn
             </div>
 
             <div class="info-item">
               <span>Kostnad</span>
-              Ingen deltagaravgift. Eget boende, resa och mat.
+              Ingen deltagaravgift. Du betalar själv för resa, boende och mat.
             </div>
 
             <div class="info-item">
               <span>Förkunskapskrav</span>
-              Genomförd CMAS One Star Apnea eller motsvarande fridykningskurs.
+              Djupkurs i fridykning, till exempel CMAS One Star Apnea.
             </div>
           </div>
 
           <p>
-            Det här är en begränsad provomgång. Skicka ett mejl med några rader
-            om din fridykningsbakgrund och hur du skulle vilja bidra under helgen.
+            Vill du vara med? Fyll i anmälningsformuläret om du planerar att
+            komma. Vi återkommer med bekräftelse och mer information.
           </p>
 
           <a
             class="button"
-            href="mailto:info@djuphelg.se?subject=Intresseanmälan%20Djuphelg%202026"
+            href="https://forms.gle/61C4yt1fkdc4LoJy9"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Anmäl intresse via mejl
+            Anmäl dig
           </a>
 
           <p class="small">
-            Kontakt: <a href="mailto:info@djuphelg.se">info@djuphelg.se</a>
+            Frågor? Mejla <a href="mailto:info@djuphelg.se">info@djuphelg.se</a>.
           </p>
         </div>
       </div>
@@ -411,7 +426,7 @@
   </main>
 
   <footer>
-    <div class="container">Djuphelg – Gullmarn · 2026</div>
+    <div class="container">Djuphelg - Gullmarn · 2026</div>
   </footer>
 </body>
 </html>
