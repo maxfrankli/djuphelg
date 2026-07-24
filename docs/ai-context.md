@@ -1,186 +1,186 @@
-# Djuphelg – AI-kontext
+# Djuphelg - AI-kontext
 
-## Syfte med dokumentet
+Senast uppdaterad: 2026-07-24
 
-Detta dokument ska göra det möjligt för en ny AI-assistent eller projektmedlem att snabbt förstå Djuphelg utan tillgång till tidigare konversationer.
+Det här är första filen en ny AI-agent bör läsa. Den sammanfattar projektet, nuläget och de viktigaste besluten.
 
-Vid fortsatt arbete ska detta dokument, tillsammans med övriga filer i `docs/`, behandlas som projektets huvudsakliga kontext.
+## Projektet
 
-## Projektöversikt
+**Djuphelg - Gullmarn** är en deltagardriven fridykningshelg vid Gullmarn.
 
-**Djuphelg – Gullmarn** är en deltagardriven fridykningshelg.
+Första provomgången:
 
-Pilothelgen är planerad till:
-
-- **Datum:** 14–16 augusti 2026
-- **Plats:** Fossens Camping vid Gullmarn
-- **Format:** deltagardriven helg
+- **Datum:** 14-16 augusti 2026
+- **Bas:** Fossens Camping vid Gullmarn
 - **Initiativtagare:** Max Franklin
 - **Deltagaravgift:** ingen
+- **Anmälan:** Google Forms, `https://forms.gle/61C4yt1fkdc4LoJy9`
+- **Kontakt:** `info@djuphelg.se`
 
-Djuphelg ska inte fungera som ett traditionellt kommersiellt evenemang där en arrangör säljer ett färdigt program till kunder. Initiativtagaren tillhandahåller i stället en ram, grundläggande säkerhet och nödvändig logistik. Deltagarna skapar tillsammans innehållet.
+Djuphelg ska inte kännas som ett kommersiellt event där arrangören säljer ett färdigt program. Initiativtagaren skapar ramen, grundläggande säkerhet och nödvändig dyklogistik. Deltagarna skapar resten tillsammans.
 
-## Grundidé
+## Publik positionering
 
-Deltagarna ska inte ses som publik eller kunder.
+Hemsidan ska börja med Djuphelg som koncept, inte med att kalla allt för pilothelg. Årets mindre format förklaras längre ner som **en första provomgång**.
 
-De kan bidra med exempelvis:
+Sidan ska vara kort och koncis:
+
+1. Hero
+2. Kort vision
+3. Praktisk förklaring
+4. Kort information och anmälan
+
+Den publika sidan ska skapa intresse och få rätt personer att anmäla sig. Mer detaljerad information, samordning och Slack kan komma senare till anmälda deltagare.
+
+## Ton
+
+Skriv på svenska. Tonen ska vara lugn, konkret, mänsklig och icke-säljig.
+
+Undvik:
+
+- aggressiva call-to-actions
+- kommersiell eventjargong
+- överdrivna superlativ
+- sektliknande eller ritualiserat språk
+- att beskriva deltagare som kunder
+- att kalla Djuphelg för Burning Man
+
+Det är okej att vara varm och inbjudande, men sidan ska främst vara en tydlig infosida för ett deltagardrivet arrangemang.
+
+## Grundfilosofi
+
+Deltagarna är inte publik. Alla kan bidra med något, stort eller litet.
+
+Exempel på bidrag:
 
 - workshops
 - coachning
-- safetypass
-- yoga eller andningsövningar
-- matlagning
-- morgonkaffe
-- skjuts
-- utlåning av utrustning
-- disk
+- erfarenhetsutbyte
+- samtal
+- fika eller mat
+- transport
+- gemensam utrustning
+- foto
 - praktisk hjälp
-- en berättelse eller erfarenhet
-- att upptäcka och lösa något som behöver göras
+- disk, städning eller sådant som bara behöver göras
 
-Både synliga och osynliga bidrag ska uppmärksammas.
+Nuvarande formulering på hemsidan:
 
-En viktig formulering är:
+> Tanken är enkel: ser du något som skulle göra helgen bättre, större eller lättare för någon annan, så är det värt att göra.
+
+Intern filosofisk formulering som fortfarande gäller:
 
 > Vi värderar inte gåvor efter hur synliga de är, utan efter att de ges.
 
-## Inspirationskälla
+Den senare är bra som intern princip, men kan kännas för principtung på den publika sidan.
 
-Djuphelg är inspirerad av principer som deltagande, gåvokultur, medskapande och självorganisering, bland annat från Burning Man.
+## 2026 års upplägg
 
-Djuphelg ska dock **inte beskrivas som Burning Man**, och språket ska undvika att skapa felaktiga associationer till festival, sekt, kommersialism eller överdriven spiritualitet.
+Lördag och söndag finns två planerade ramar för djupdykning per dag. De ska inte beskrivas som ett färdigserverat program. Även dyktillfällena bygger på att deltagarna dyker, hjälper till och tar ansvar tillsammans.
 
-## Ekonomi
+Allt annat innehåll skapas av deltagarna.
 
-Ingen deltagaravgift tas ut.
+Boende:
 
-Varje deltagare betalar själv för:
+- Helgen utgår från Fossens Camping.
+- Tanken är att de flesta bor där.
+- Det är okej att lösa boende på annat sätt, till exempel om man bor i närheten.
 
-- resa
-- camping
-- egen mat, om den inte delas eller ges av någon annan
+Kostnad:
 
-Målet är att minimera ekonomiska transaktioner mellan deltagarna.
+- Ingen deltagaravgift.
+- Deltagare betalar själva resa, boende och mat.
 
-Kunskap, aktiviteter, hjälp och måltider ges i första hand som gåvor.
+## Deltagarkrav
 
-Framtida gemensamma kostnader för faktisk infrastruktur kan förekomma, exempelvis båtar, syrgas, säkerhetsutrustning, webbplats eller gemensamma transporter. Sådana kostnader ska hållas separata från gåvokulturen och hanteras transparent.
+För 2026 krävs genomförd fridykningskurs i djup, till exempel CMAS One Star Apnea eller motsvarande.
 
-## Initiativ och organisering
+Formulering på hemsidan:
 
-I stället för en central programlista eller en traditionell önskelista ska deltagarna kunna föreslå initiativ.
+> Djupkurs i fridykning, till exempel CMAS One Star Apnea.
 
-Varje initiativ kan skapa egna behov, exempelvis utrustning, medhjälpare, tid, transport, plats eller råvaror.
+Alla som uppfyller kravet får anmäla sig. Om fler anmäler sig än det finns plats för gäller först till kvarn.
 
-Initiativtagaren samordnar centralt endast sådant som är nödvändigt för säkerhet och grundläggande dyklogistik.
+Preliminär övre riktning är ungefär max 20 deltagare, men det behöver inte nödvändigtvis stå på hemsidan.
+
+## Säkerhet
+
+Säkerhet ska vara tydligt prioriterad, men detaljer ska inte låsas på hemsidan innan säkerhetsplanen är färdig.
+
+Publik nivå just nu:
+
+- Dykpar matchas efter nivå.
+- Dykpar fungerar som buddy och säkerhetsdykare för varandra.
+- Mer oerfarna dykare får stöd av säkerhetsdykare och/eller coacher under passen.
+
+Säkerhetsplanen behöver fortfarande utvecklas separat.
+
+## Anmälan
+
+Anmälan sker via Google Forms:
+
+`https://forms.gle/61C4yt1fkdc4LoJy9`
+
+Det ska beskrivas som en riktig anmälan för personer som planerar att komma, inte som en lös intresseanmälan.
+
+Hemsidans knapp bör heta:
+
+> Anmäl dig
+
+`info@djuphelg.se` används för frågor.
 
 ## Det gemensamma dyket
 
-En återkommande tradition är planerad under namnet **Det gemensamma dyket**.
+Det finns en planerad tradition med arbetsnamnet **Det gemensamma dyket**, en guidad visualisering kopplad till fridykning.
 
-Det är en guidad visualiseringsövning där gruppen tillsammans föreställer sig ett djupt fridyk genom Gullmarn.
+Viktigt:
 
-Syften:
+- Ska inte nämnas på publika hemsidan i nuläget.
+- Ordet **ceremoni** ska undvikas.
+- Får ha subtilt inre djup, men ska inte marknadsföras som spirituellt.
+- Max leder första året.
 
-- ge alla möjlighet att mentalt uppleva ett djupt dyk
-- fungera som legitim visualiseringsträning
-- skapa en gemensam upplevelse
-- öppna för ett inre djup utan att göra övningen uttalat spirituell
+## Teknisk status
 
-Föreslagen formulering:
+Webbplats:
 
-> Vi följer linan ner genom Gullmarn, men kanske också en bit djupare in i oss själva.
+- Statisk HTML och CSS.
+- Hosting via GitHub Pages.
+- Publiceras från `main` och repositoryts rot.
+- Domän: `djuphelg.se`.
+- `https://djuphelg.se` fungerar.
+- `https://www.djuphelg.se` fungerar.
+- Enforce HTTPS är aktiverat.
+- `CNAME` finns i roten och innehåller `djuphelg.se`.
 
-Första året leder Max övningen.
+DNS:
 
-Framtida år kan en erfaren deltagare leda den som en gåva till gruppen. Förmågan att guida en upplevelse är viktigare än personens maximala dykdjup.
+- Registrar: Loopia.
+- DNS: Cloudflare Free.
+- GitHub Pages-poster ligger som DNS only.
 
-Ordet **ceremoni** ska undvikas.
+E-post:
 
-## Kultur kring uppskattning
+- `info@djuphelg.se` fungerar.
+- Cloudflare Email Routing används.
+- Svar är konfigurerat så mottagaren ser `info@djuphelg.se` som avsändare.
 
-Djuphelg ska aktivt motverka att endast stora och synliga bidrag får uppskattning.
+## Kvarvarande fokus
 
-Möjliga former:
+Högst värde härnäst:
 
-- kort tacksamhetsrunda på kvällen
-- deltagare tackar andra för konkreta handlingar
-- synliggöra sådant som skjuts, disk, inköp, säkerhet och omsorg
-- undvika rangordning av bidrag
+- Testa Facebook-preview igen efter publicering.
+- Lägg till favicon.
+- Säkerställ bildrättigheter.
+- Ta fram riktig säkerhetsplan.
 
-## Webbplats
+## Arbetsprincip
 
-Webbplatsen är redan publicerad via GitHub Pages.
+När du föreslår nya saker, kontrollera först:
 
-- Repository: `https://github.com/maxfrankli/djuphelg`
-- Tidigare GitHub Pages-adress: `https://maxfrankli.github.io/djuphelg/`
-- Egen domän: `djuphelg.se`
-- Registrar: Loopia
-- DNS: Cloudflare
-- Hosting: GitHub Pages
-- Teknik: statisk HTML och CSS
+1. Är det redan beslutat i `docs/decisions.md`?
+2. Stärker det deltagande, enkelhet, säkerhet och medskapande?
+3. Gör det sidan tydligare utan att göra den längre än nödvändigt?
+4. Bygger det på fakta, eller kräver det beslut från Max?
 
-Webbplatsen ska vara mobilanpassad, snabb, enkel att underhålla, fri från onödiga ramverk, lugn, naturnära och icke-kommersiell i uttrycket.
-
-Estetisk riktning:
-
-- mörkt blågrönt
-- mycket luft
-- Gullmarn och natur
-- hög kvalitet utan lyxmarknadsföring
-- undvik neonblå sportestetik
-- undvik aggressiva call-to-action-knappar
-- känslan kan beskrivas som “Patagonia möter Apple”, utan att imitera något varumärke
-
-## Aktuell teknisk status
-
-Följande är genomfört:
-
-- GitHub-repository skapat
-- första versionen av webbplatsen uppladdad
-- GitHub Pages aktiverat från `main` och repositoryts rot
-- `djuphelg.se` angivet som Custom domain i GitHub Pages
-- domänen registrerad hos Loopia
-- Cloudflare Free har lagts till
-- namnservrar hos Loopia har ändrats till:
-  - `ashton.ns.cloudflare.com`
-  - `rosemary.ns.cloudflare.com`
-- GitHub Pages DNS-poster finns i Cloudflare
-- samtliga GitHub-poster är satta till **DNS only**
-
-DNS-poster:
-
-| Typ | Namn | Innehåll |
-|---|---|---|
-| A | `@` | `185.199.108.153` |
-| A | `@` | `185.199.109.153` |
-| A | `@` | `185.199.110.153` |
-| A | `@` | `185.199.111.153` |
-| CNAME | `www` | `maxfrankli.github.io` |
-
-Vid senaste uppdateringen väntade Cloudflare på att namnserverbytet skulle propagera. Aktuell status bör verifieras innan ändringar görs.
-
-## E-post
-
-Planerad lösning:
-
-- adress: `info@djuphelg.se`
-- Cloudflare Email Routing
-- vidarebefordran till Max privata Gmail
-
-E-postlösningen är ännu inte bekräftad som färdig.
-
-## Ton och språk
-
-Språket ska vara lugnt, direkt, inkluderande, konkret, eftertänksamt och icke-säljande.
-
-Undvik överdrivna superlativ, sektliknande eller ritualiserat språk, kommersiell eventjargong, löften om upplevelser och att beskriva deltagare som kunder.
-
-## Beslutsprincip för framtida förslag
-
-När ny funktionalitet eller nya aktiviteter föreslås ska frågan ställas:
-
-> Stärker detta deltagande, enkelhet, säkerhet och medskapande – eller gör det helgen mer kommersiell, toppstyrd eller administrativ?
-
-Välj i regel den enklaste lösningen som stödjer filosofin.
+Ändra inte säkerhetskritiska detaljer utifrån antaganden.

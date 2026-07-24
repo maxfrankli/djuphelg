@@ -1,16 +1,18 @@
 # Vision och filosofi
 
+Senast uppdaterad: 2026-07-24
+
 ## Vision
 
 Djuphelg ska vara en plats där fridykare skapar en helg tillsammans, snarare än konsumerar ett färdigt evenemang.
 
-Initiativtagaren skapar de förutsättningar som krävs för att mötas och dyka säkert. Deltagarna fyller sedan helgen med kunskap, arbete, omsorg, mat, initiativ och upplevelser.
+Initiativtagaren skapar förutsättningarna som krävs för att mötas, dyka och göra det säkert. Deltagarna fyller sedan helgen med kunskap, arbete, omsorg, mat, initiativ och upplevelser.
 
 ## Grundprinciper
 
 ### Deltagande
 
-Alla är deltagare. Ingen behöver bidra med en workshop eller en stor prestation, men alla kan bidra med något.
+Alla är deltagare. Ingen behöver bidra med en stor prestation, men alla kan bidra med något.
 
 ### Gåvor
 
@@ -34,14 +36,33 @@ En workshop är inte viktigare än disken efter middagen. En djup prestation är
 
 ## Vad Djuphelg inte ska vara
 
-Djuphelg ska inte bli en traditionell kurs, en kommersiell fridykningsfestival, en tävling, ett färdigpaketerat retreat, en plats där status mäts i personbästa eller ett evenemang där några få arbetar och resten konsumerar.
+Djuphelg ska inte bli:
 
-## Vägledande formuleringar
+- en traditionell kurs
+- en kommersiell fridykningsfestival
+- en tävling
+- ett färdigpaketerat retreat
+- en plats där status mäts i personbästa
+- ett evenemang där några få arbetar och resten konsumerar
 
-> Vi skapar djuphelgen tillsammans.
+## Språk
+
+Bra interna formuleringar:
+
+> Vi skapar Djuphelg tillsammans.
+
+> Ramen finns. Innehållet skapar vi.
 
 > Ingen publik. Inga färdiga kunder. Alla kan bidra.
 
 > Vi värderar inte gåvor efter hur synliga de är, utan efter att de ges.
 
-> Ramen finns. Innehållet skapar vi.
+Nuvarande bättre publika formulering:
+
+> Tanken är enkel: ser du något som skulle göra helgen bättre, större eller lättare för någon annan, så är det värt att göra.
+
+## Inspirationskällor
+
+Djuphelg är inspirerad av principer som deltagande, gåvokultur, medskapande och självorganisering.
+
+Undvik att beskriva Djuphelg som Burning Man. Det kan ge fel associationer till festival, sekt, kommersialism eller överdriven spiritualitet.

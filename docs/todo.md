@@ -1,51 +1,67 @@
 # Att göra
 
-## Nu
+Senast uppdaterad: 2026-07-24
 
-- [ ] Bekräfta att Cloudflare har aktiverat zonen efter namnserverbytet.
-- [ ] Kontrollera att `djuphelg.se` pekar på GitHub Pages.
-- [ ] Kontrollera att `www.djuphelg.se` fungerar.
-- [ ] Aktivera **Enforce HTTPS** i GitHub Pages när det blir tillgängligt.
-- [ ] Testa webbplatsen i Safari och Chrome på mobil och dator.
-- [ ] Kontrollera att GitHub-repot innehåller en korrekt `CNAME`-fil.
+## Nästa högsta prioritet
 
-## E-post
+- [x] Lägg till Open Graph-metadata för Facebook-preview.
+- [x] Lägg till social delningsbild.
+- [ ] Lägg till favicon.
+- [ ] Kontrollera bildrättigheter för nuvarande bilder.
 
-- [ ] Aktivera Cloudflare Email Routing.
-- [ ] Skapa `info@djuphelg.se`.
-- [ ] Vidarebefordra till rätt Gmail-adress.
-- [ ] Verifiera mottagaradressen.
-- [ ] Skicka testmejl.
-- [ ] Bestäm hur svar ska skickas och vilken avsändaradress som visas.
+## Webbplats
 
-## Webbplatsens innehåll
+- [ ] Göra en sista helhetsläsning av publika sidan som Facebook-besökare.
+- [ ] Bedöm om säkerhetstexten på sidan är lagom tydlig.
+- [ ] Lägg eventuellt till enklare SEO-metadata utöver social preview.
+- [ ] Testa Facebook-preview igen efter publicering.
 
-- [ ] Granska all text mot den slutliga filosofin.
-- [ ] Kontrollera om datum ska visas som 2026 överallt.
-- [ ] Bestäm vilka krav som gäller för deltagande.
-- [ ] Skriv tydlig säkerhetsinformation.
-- [ ] Lägg till FAQ.
-- [ ] Lägg till anmälningsflöde när upplägget är bestämt.
-- [ ] Välj och rättighetskontrollera bilder från Gullmarn.
-- [ ] Lägg till favicon och social delningsbild.
-- [ ] Lägg till grundläggande metadata för sökmotorer och delning.
+## Klart för webb och teknik
 
-## Evenemangsplanering
+- [x] Cloudflare-zonen är aktiv efter namnserverbytet.
+- [x] `djuphelg.se` pekar på GitHub Pages.
+- [x] `www.djuphelg.se` fungerar.
+- [x] Enforce HTTPS är aktiverat i GitHub Pages.
+- [x] Webbplatsen har testats på mobil och desktop.
+- [x] GitHub-repot innehåller korrekt `CNAME`.
+- [x] `CNAME` innehåller `djuphelg.se`.
+- [x] Google Formuläret är skapat och testat.
+- [x] Google Formuläret är länkat från hemsidan.
 
-- [ ] Bestäm preliminärt maxantal deltagare.
-- [ ] Definiera minsta erfarenhetsnivå.
-- [ ] Ta fram säkerhetsplan.
+## Klart för e-post
+
+- [x] Cloudflare Email Routing är aktivt.
+- [x] `info@djuphelg.se` är skapat.
+- [x] Vidarebefordran till rätt Gmail-adress fungerar.
+- [x] Mottagaradressen är verifierad.
+- [x] Testmejl fungerar.
+- [x] Svar kan skickas så mottagaren ser `info@djuphelg.se` som avsändare.
+
+## Klart för innehåll
+
+- [x] Datum är satt till 14-16 augusti 2026.
+- [x] Deltagarkrav för 2026 är bestämt.
+- [x] Anmälan är en riktig anmälan via Google Forms.
+- [x] Publika sidan nämner inte Det gemensamma dyket.
+- [x] Publika sidan beskriver 2026 som en första provomgång i praktiska delen.
+- [x] Fossens Camping är länkad.
+- [x] Externa länkar öppnas i ny flik.
+
+## Eventplanering kvar
+
+- [ ] Ta fram full säkerhetsplan.
 - [ ] Bestäm antal bojsetups och linor.
 - [ ] Planera syrgas och första hjälpen.
 - [ ] Dokumentera vädergränser och avbrytandekriterier.
 - [ ] Kontrollera campingens praktiska villkor.
-- [ ] Bestäm hur deltagarinitiativ samlas in.
-- [ ] Skapa enkel mall för initiativ.
+- [ ] Bestäm hur deltagarinitiativ samlas in efter anmälan.
+- [ ] Skapa enkel mall för deltagarinitiativ om det behövs.
 - [ ] Planera upplägget för Det gemensamma dyket.
 - [ ] Bestäm om och hur kvällstacksamhet provas.
+- [ ] Bestäm hur Slack ska introduceras för anmälda deltagare.
 
 ## Dokumentation
 
-- [ ] Uppdatera `ai-context.md` efter större beslut.
-- [ ] Flytta genomförda uppgifter från `todo.md` till beslutslogg eller historik.
-- [ ] Lägg till datum för större ändringar.
+- [x] Uppdatera `ai-context.md` efter större beslut.
+- [x] Rensa och strukturera `docs/` för framtida AI-agenter.
+- [ ] Flytta framtida genomförda uppgifter från todo till beslutslogg eller historik.

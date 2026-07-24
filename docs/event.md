@@ -1,44 +1,106 @@
-# Pilothelgen 2026
+# Eventplanering
+
+Senast uppdaterad: 2026-07-24
 
 ## Grunduppgifter
 
-- **Namn:** Djuphelg – Gullmarn
-- **Datum:** 14–16 augusti 2026
+- **Namn:** Djuphelg - Gullmarn
+- **Datum:** 14-16 augusti 2026
 - **Bas:** Fossens Camping vid Gullmarn
-- **Format:** pilothelg
+- **Format:** första provomgång i mindre omfattning
 - **Deltagaravgift:** ingen
+- **Anmälan:** Google Forms, `https://forms.gle/61C4yt1fkdc4LoJy9`
+- **Kontakt:** `info@djuphelg.se`
+
+## Deltagare
+
+Minimikrav 2026:
+
+- Genomförd fridykningskurs i djup, till exempel CMAS One Star Apnea eller motsvarande.
+
+Antagning:
+
+- Alla som uppfyller kravet får anmäla sig.
+- Om fler anmäler sig än det finns plats för gäller först till kvarn.
+- Preliminär riktning är ungefär max 20 personer, men det behöver inte skrivas ut publikt.
 
 ## Vad initiativtagaren ansvarar för
 
-Initiativtagaren ska främst skapa ramen för helgen. Det omfattar preliminärt grundläggande säkerhetsupplägg, samordning av dyklokaler och tider, nödvändig boj- och linlogistik, information före helgen, gemensam start och avslutning samt samordning av sådant som måste lösas centralt.
+Initiativtagaren skapar ramen för helgen.
 
-Initiativtagaren ska inte behöva skapa hela programmet.
+Det omfattar preliminärt:
+
+- grundläggande säkerhetsupplägg
+- samordning av dyklokaler och tider
+- nödvändig boj- och linlogistik
+- information före helgen
+- gemensam start och avslutning
+- sådant som måste lösas centralt
+
+Initiativtagaren ska inte skapa hela programmet.
 
 ## Vad deltagarna ansvarar för
 
-Deltagarna ansvarar för egen resa, egen campingbokning och kostnad, egen mat om inget annat överenskommits, personlig utrustning, att följa säkerhetsregler och att hjälpa till där det behövs.
+Deltagarna ansvarar för:
 
-## Möjliga deltagarinitiativ
+- egen resa
+- boende
+- mat, om inget annat överenskommits
+- personlig utrustning
+- att följa säkerhetsregler
+- att hjälpa till där det behövs
+- att bidra till den gemensamma miljön
 
-Exempel: teknikworkshop, equalization-session, yoga, rörlighet, andningsövningar, erfarenhetsdelning, gemensam middag, morgonkaffe, transport, foto, landaktivitet, utrustningsservice, städning eller disk.
+Helgen utgår från Fossens Camping och tanken är att de flesta bor där. Det är också okej att lösa boende på annat sätt, till exempel om man bor i närheten.
+
+## Dykupplägg
+
+Lördag och söndag finns två planerade ramar för djupdykning per dag.
+
+Viktig nyans:
+
+- Dyktillfällena är förplanerade ramar, inte färdigserverat innehåll.
+- Passen bygger på att deltagarna dyker, hjälper till och tar ansvar tillsammans.
+- Dykpar matchas efter nivå.
+- Dykpar fungerar som buddy och säkerhetsdykare för varandra.
+- Mer oerfarna dykare får stöd av säkerhetsdykare och/eller coacher under passen.
+
+## Deltagarinitiativ
+
+Allt annat innehåll skapas av deltagarna.
+
+Exempel:
+
+- workshops
+- coachning
+- erfarenhetsutbyte
+- samtal
+- fika eller mat
+- transport
+- foto
+- gemensam utrustning
+- utrustningsservice
+- landaktivitet
+- städning
+- disk
+- annan praktisk hjälp
 
 Listan är exempel, inte ett färdigt program.
 
-## Initiativtavla
+## Formuläret
 
-En framtida initiativtavla kan låta deltagarna beskriva vad de vill skapa, när det kan ske, vad de behöver, vilka som kan hjälpa och vem som är kontaktperson.
+Formuläret ska samla in:
 
-Tavlan ska inte bli ett avancerat bokningssystem.
+- namn
+- e-post
+- telefonnummer
+- genomförd fridykningskurs i djup
+- ungefärlig fridykningserfarenhet
+- praktiskt som kan påverka planeringen
+- vad som lockar personen med Djuphelg
+- frivilligt: något personen kan ta med, dela eller hjälpa till med
 
-## Det gemensamma dyket
-
-Under helgen hålls en guidad visualisering med arbetsnamnet **Det gemensamma dyket**.
-
-Övningen ska vara tillgänglig oavsett personbästa, kännas seriös som mental träning, skapa en gemensam upplevelse, vara frivillig och inte beskrivas som ceremoni.
-
-## Uppskattning och tacksamhet
-
-En enkel kvällsform kan prövas där deltagarna kort nämner något de uppskattat att någon annan gjort. Det ska inte bli en tävling, prestationsbedömning eller obligatorisk emotionell delning.
+Bidragsfrågan ska vara tydligt frivillig och lågpressad. Den ska inte kännas som att deltagaren måste ha bestämt vad den ska bidra med redan vid anmälan.
 
 ## Säkerhet som behöver utvecklas
 
@@ -55,3 +117,29 @@ Följande behöver dokumenteras separat före helgen:
 - avbrytandekriterier
 - ansvarig säkerhetsledning
 - hantering av incidenter
+
+Ändra inte säkerhetskritiska detaljer på hemsidan utifrån antaganden.
+
+## Det gemensamma dyket
+
+Under helgen planeras en guidad visualisering med arbetsnamnet **Det gemensamma dyket**.
+
+Den ska:
+
+- vara tillgänglig oavsett personbästa
+- kännas som legitim visualiseringsträning
+- skapa en gemensam upplevelse
+- vara frivillig
+- inte beskrivas som ceremoni
+
+Den ska inte nämnas på publika hemsidan i nuläget.
+
+## Uppskattning och tacksamhet
+
+En enkel kvällsform kan prövas där deltagare kort nämner något de uppskattat att någon annan gjort.
+
+Det ska inte bli:
+
+- tävling
+- prestationsbedömning
+- obligatorisk emotionell delning

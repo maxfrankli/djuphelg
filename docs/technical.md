@@ -1,5 +1,7 @@
 # Teknisk dokumentation
 
+Senast uppdaterad: 2026-07-24
+
 ## Översikt
 
 - **Repository:** `https://github.com/maxfrankli/djuphelg`
@@ -8,32 +10,52 @@
 - **Registrar:** Loopia
 - **DNS-leverantör:** Cloudflare
 - **Cloudflare-plan:** Free
-- **Teknik:** HTML och CSS
+- **Teknik:** statisk HTML och CSS
 - **Publiceringsgren:** `main`
 - **Publiceringsmapp:** repositoryts rot, `/`
 
+## Aktuell status
+
+Verifierat:
+
+- `https://djuphelg.se` fungerar.
+- `https://www.djuphelg.se` fungerar.
+- GitHub Pages är konfigurerat för `djuphelg.se`.
+- **Enforce HTTPS** är aktiverat.
+- Webbplatsen har testats i mobil och desktop.
+- `CNAME` finns i repositoryts rot.
+- `CNAME` innehåller exakt `djuphelg.se`.
+- Google Formuläret har testats.
+- `info@djuphelg.se` fungerar.
+- Svar kan skickas så mottagaren ser `info@djuphelg.se` som avsändare.
+- Open Graph/Twitter-metadata finns i `index.html`.
+- Social delningsbild finns i `assets/og-image.jpg` och är 1200x630.
+
 ## GitHub Pages
 
-GitHub Pages är konfigurerat att publicera webbplatsen direkt från `main`.
+GitHub Pages publicerar webbplatsen direkt från:
+
+- Branch: `main`
+- Folder: `/`
+
+Custom domain:
+
+`djuphelg.se`
 
 GitHub Pages-adress före egen domän:
 
 `https://maxfrankli.github.io/djuphelg/`
 
-Custom domain i GitHub:
-
-`djuphelg.se`
-
-## Namnservrar
+## DNS
 
 Loopia har uppdaterats till Cloudflares namnservrar:
 
 - `ashton.ns.cloudflare.com`
 - `rosemary.ns.cloudflare.com`
 
-Vid senaste dokumenterade status väntade Cloudflare fortfarande på full namnserverpropagation.
+Cloudflare-zonen är aktiv.
 
-## DNS-poster i Cloudflare
+DNS-poster i Cloudflare:
 
 | Typ | Namn | Innehåll | Proxy |
 |---|---|---|---|
@@ -43,31 +65,55 @@ Vid senaste dokumenterade status väntade Cloudflare fortfarande på full namnse
 | A | `@` | `185.199.111.153` | DNS only |
 | CNAME | `www` | `maxfrankli.github.io` | DNS only |
 
-Gamla parkeringsposter mot Loopias IP-adresser `194.9.94.85` och `194.9.94.86` har tagits bort.
+Cloudflare-proxy ska inte aktiveras utan tydligt skäl och test.
 
 ## HTTPS
 
-När namnservrar och DNS har propagerat ska följande kontrolleras:
+HTTPS är aktiverat via GitHub Pages.
 
-1. GitHub verifierar `djuphelg.se`.
-2. `Enforce HTTPS` blir tillgängligt i GitHub Pages.
-3. HTTPS aktiveras.
-4. `https://djuphelg.se` och `https://www.djuphelg.se` testas.
+Verifierat:
 
-## Cloudflare-proxy
-
-GitHub-posterna är initialt satta till **DNS only**. Cloudflare-proxy ska inte aktiveras utan ett tydligt skäl och test.
+- `https://djuphelg.se`
+- `https://www.djuphelg.se`
 
 ## E-post
 
-Planerad lösning:
+Aktuell lösning:
 
 - Cloudflare Email Routing
 - `info@djuphelg.se`
 - vidarebefordran till Max Gmail
+- mottagning testad
+- svar som `info@djuphelg.se` konfigurerat
 
-Att skicka som `info@djuphelg.se` från Gmail kan kräva ytterligare SMTP-lösning och är inte samma sak som gratis vidarebefordran.
+## Anmälan
 
-## Ändringsprincip
+Anmälan sker via Google Forms:
 
-Lägg aldrig lösenord, API-nycklar, deltagarlistor, privata mejladresser, medicinska uppgifter eller andra hemligheter i det publika repot.
+`https://forms.gle/61C4yt1fkdc4LoJy9`
+
+Formuläret har testats.
+
+## Kvar att göra tekniskt
+
+Högst prioriterat:
+
+- Testa Facebook-preview igen efter publicering.
+- Lägg till favicon.
+
+Övrigt:
+
+- Kontrollera bildrättigheter.
+- Eventuellt lägga till mer metadata för sökmotorer och delning.
+
+## Säkerhet i repositoryt
+
+Lägg aldrig detta i det publika repot:
+
+- lösenord
+- API-nycklar
+- deltagarlistor
+- privata mejladresser
+- medicinska uppgifter
+- formulärsvar
+- andra hemligheter
