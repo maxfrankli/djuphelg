@@ -4,64 +4,414 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Djuphelg – Gullmarn, en deltagardriven fridykningshelg 14–16 augusti 2026 vid Fossens Camping.">
+  <meta name="theme-color" content="#071a1d">
   <title>Djuphelg – Gullmarn</title>
+
   <style>
-    :root{--bg:#071b1e;--bg-soft:#0d292d;--surface:#f4f1e8;--text:#f4f1e8;--text-dark:#102629;--muted:#b7c7c5;--accent:#d8efdf;--accent-dark:#143d35;--line:rgba(244,241,232,.18);--max-width:760px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:18px;line-height:1.65;text-rendering:optimizeLegibility}a{color:inherit}.container{width:min(calc(100% - 40px),var(--max-width));margin-inline:auto}.hero{min-height:86vh;display:grid;align-items:end;padding:72px 0 64px;background:linear-gradient(180deg,rgba(7,27,30,.18),rgba(7,27,30,.94)),radial-gradient(circle at 72% 20%,#24575a 0,transparent 42%),linear-gradient(145deg,#0d3438,#071b1e 68%)}.eyebrow{margin:0 0 14px;color:var(--muted);font-size:.82rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}h1,h2{margin:0;line-height:1.08;letter-spacing:-.035em}h1{max-width:720px;font-size:clamp(3.2rem,10vw,6.4rem);font-weight:760}h2{margin-bottom:28px;font-size:clamp(2.1rem,7vw,3.6rem)}.lead{max-width:650px;margin:26px 0 0;color:var(--muted);font-size:clamp(1.25rem,3vw,1.55rem);line-height:1.45}.event-meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin:30px 0;font-weight:650}.button{display:inline-block;padding:14px 21px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--accent-dark);font-weight:760;text-decoration:none;transition:transform 150ms ease,background 150ms ease}.button:hover,.button:focus-visible{transform:translateY(-2px);background:#eef8f0}main section{padding:88px 0;border-top:1px solid var(--line)}main section:nth-child(even){background:var(--bg-soft)}p{margin:0 0 1.15em}.large-copy{font-size:clamp(1.2rem,3vw,1.42rem);line-height:1.55}.principle{margin-top:34px;padding-left:22px;border-left:3px solid var(--accent);color:var(--muted);font-size:1.08rem}.practical-list{display:grid;gap:18px;margin:0;padding:0;list-style:none}.practical-list li{padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}.practical-list strong{display:block;margin-bottom:4px;color:var(--accent)}.info-card{padding:clamp(28px,7vw,48px);border-radius:20px;background:var(--surface);color:var(--text-dark)}.info-grid{display:grid;grid-template-columns:1fr;gap:18px;margin:30px 0}.info-item{padding-bottom:18px;border-bottom:1px solid rgba(16,38,41,.16)}.info-item:last-child{border-bottom:0}.info-item span{display:block;margin-bottom:3px;color:#496260;font-size:.82rem;font-weight:750;letter-spacing:.08em;text-transform:uppercase}.info-card .button{border-color:var(--accent-dark);background:var(--accent-dark);color:white}.info-card .button:hover,.info-card .button:focus-visible{background:#215749}.small{margin-top:18px;color:#526765;font-size:.9rem}footer{padding:36px 0 50px;color:var(--muted);font-size:.9rem;text-align:center}@media(min-width:680px){.info-grid{grid-template-columns:1fr 1fr}.info-item:nth-last-child(-n+2){border-bottom:0}}
+    :root {
+      --ink: #10272a;
+      --deep: #071a1d;
+      --deep-soft: #0d292d;
+      --mist: #eef1eb;
+      --sand: #f5f0e6;
+      --sea: #a9c9c5;
+      --sea-dark: #315d5c;
+      --sun: #f0d19a;
+      --line-light: rgba(255, 255, 255, 0.18);
+      --line-dark: rgba(16, 39, 42, 0.16);
+      --max: 820px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--deep);
+      color: var(--mist);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.65;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max));
+      margin-inline: auto;
+    }
+
+    .hero {
+      min-height: 92svh;
+      display: grid;
+      align-items: end;
+      position: relative;
+      isolation: isolate;
+      background:
+        linear-gradient(180deg, rgba(7, 26, 29, 0.12) 15%, rgba(7, 26, 29, 0.42) 55%, rgba(7, 26, 29, 0.94) 100%),
+        url("assets/gullmarn-sol.jpg") center 58% / cover no-repeat;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 30%;
+      background: linear-gradient(to bottom, transparent, var(--deep));
+      z-index: -1;
+    }
+
+    .hero-inner {
+      padding: 80px 0 72px;
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      font-size: 0.8rem;
+      font-weight: 780;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .hero .eyebrow {
+      color: #f8f3e7;
+      text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      line-height: 1.04;
+      letter-spacing: -0.045em;
+    }
+
+    h1 {
+      max-width: 760px;
+      font-size: clamp(3.8rem, 12vw, 7.2rem);
+      font-weight: 790;
+      text-shadow: 0 3px 28px rgba(0, 0, 0, 0.52);
+    }
+
+    h2 {
+      margin-bottom: 28px;
+      font-size: clamp(2.25rem, 7vw, 4rem);
+    }
+
+    .lead {
+      max-width: 650px;
+      margin: 24px 0 0;
+      color: #f1f1e8;
+      font-size: clamp(1.18rem, 3vw, 1.55rem);
+      line-height: 1.45;
+      text-shadow: 0 2px 18px rgba(0, 0, 0, 0.68);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 22px;
+      margin: 30px 0;
+      font-weight: 700;
+      text-shadow: 0 2px 16px rgba(0, 0, 0, 0.68);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 999px;
+      background: var(--sand);
+      color: var(--ink);
+      font-weight: 780;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      transition: transform 150ms ease, background 150ms ease;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      transform: translateY(-2px);
+      background: white;
+    }
+
+    section {
+      padding: 96px 0;
+    }
+
+    .vision {
+      background: var(--sand);
+      color: var(--ink);
+    }
+
+    .vision .eyebrow {
+      color: var(--sea-dark);
+    }
+
+    .large-copy {
+      font-size: clamp(1.2rem, 3vw, 1.45rem);
+      line-height: 1.55;
+    }
+
+    p {
+      margin: 0 0 1.1em;
+    }
+
+    .principle {
+      margin: 34px 0 0;
+      padding-left: 22px;
+      border-left: 3px solid var(--sea-dark);
+      color: #405b5b;
+      font-size: 1.08rem;
+    }
+
+    .practical {
+      background: var(--deep-soft);
+    }
+
+    .practical .eyebrow {
+      color: var(--sea);
+    }
+
+    .practical-list {
+      display: grid;
+      gap: 16px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .practical-list li {
+      padding: 22px 0;
+      border-top: 1px solid var(--line-light);
+    }
+
+    .practical-list li:last-child {
+      border-bottom: 1px solid var(--line-light);
+    }
+
+    .practical-list strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--sun);
+      font-size: 1.06rem;
+    }
+
+    .signup {
+      position: relative;
+      isolation: isolate;
+      background:
+        linear-gradient(180deg, rgba(7, 26, 29, 0.6), rgba(7, 26, 29, 0.92)),
+        url("assets/gullmarn-skymning.jpg") center / cover no-repeat;
+    }
+
+    .signup-card {
+      padding: clamp(28px, 7vw, 52px);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 18px;
+      background: rgba(7, 26, 29, 0.76);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 22px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    .signup-card .eyebrow {
+      color: var(--sea);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+      margin: 32px 0;
+    }
+
+    .info-item {
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--line-light);
+    }
+
+    .info-item span {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--sea);
+      font-size: 0.8rem;
+      font-weight: 780;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .signup-card .button {
+      background: var(--sun);
+    }
+
+    .small {
+      margin-top: 18px;
+      color: #c7d6d4;
+      font-size: 0.92rem;
+    }
+
+    footer {
+      padding: 34px 0 48px;
+      color: #9db0ae;
+      font-size: 0.88rem;
+      text-align: center;
+    }
+
+    @media (min-width: 700px) {
+      .info-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .info-item:nth-last-child(-n + 2) {
+        border-bottom: 0;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      .button {
+        transition: none;
+      }
+    }
   </style>
 </head>
+
 <body>
   <header class="hero">
-    <div class="container">
+    <div class="container hero-inner">
       <p class="eyebrow">14–16 augusti 2026 · Gullmarn</p>
       <h1>Djuphelg</h1>
-      <p class="lead">En deltagardriven fridykningshelg där vi skapar träning, lärande och gemenskap tillsammans.</p>
-      <div class="event-meta" aria-label="Praktisk sammanfattning"><span>Fossens Camping</span><span>Ingen deltagaravgift</span></div>
+      <p class="lead">
+        En deltagardriven fridykningshelg där vi skapar träning,
+        lärande och gemenskap tillsammans.
+      </p>
+
+      <div class="meta" aria-label="Praktisk sammanfattning">
+        <span>Fossens Camping</span>
+        <span>Ingen deltagaravgift</span>
+      </div>
+
       <a class="button" href="#anmalan">Anmäl intresse</a>
     </div>
   </header>
+
   <main>
-    <section id="vision">
+    <section class="vision" id="vision">
       <div class="container">
         <p class="eyebrow">Visionen</p>
         <h2>Vi gör helgen tillsammans</h2>
+
         <div class="large-copy">
-          <p>Djuphelg är ett försök att skapa en fridykningshelg där deltagarna inte bara kommer till ett färdigt arrangemang, utan själva bidrar till det som händer.</p>
-          <p>Någon håller en workshop. Någon coachar. Någon lagar mat, hjälper till med utrustning eller tar ansvar för en praktisk detalj. Bidragen kan vara stora eller små.</p>
+          <p>
+            Djuphelg är ett försök att skapa en fridykningshelg där deltagarna
+            inte bara kommer till ett färdigt arrangemang, utan själva bidrar
+            till det som händer.
+          </p>
+
+          <p>
+            Någon håller en workshop. Någon coachar. Någon lagar mat,
+            hjälper till med utrustning eller tar ansvar för en praktisk detalj.
+            Bidragen kan vara stora eller små.
+          </p>
         </div>
-        <p class="principle">Vi värderar inte bidrag efter hur synliga de är, utan efter att de ges.</p>
+
+        <p class="principle">
+          Vi värderar inte bidrag efter hur synliga de är, utan efter att de ges.
+        </p>
       </div>
     </section>
-    <section id="praktiskt">
+
+    <section class="practical" id="praktiskt">
       <div class="container">
         <p class="eyebrow">Så fungerar det</p>
         <h2>Praktiskt under helgen</h2>
+
         <ul class="practical-list">
-          <li><strong>Dykning med tydlig säkerhet</strong>Dykpassen samordnas med buddy-system, säkerhetsrutiner och nivåanpassning i fokus.</li>
-          <li><strong>Deltagarna skapar innehållet</strong>Initiativ som coachning, workshops, gemensamma måltider och andra aktiviteter växer fram ur gruppen.</li>
-          <li><strong>Eget ansvar</strong>Var och en ordnar resa, boende på eller nära Fossens Camping, mat och personlig utrustning.</li>
-          <li><strong>En första provomgång</strong>Vi testar formatet i mindre skala och utvecklar det tillsammans inför möjliga framtida helger.</li>
+          <li>
+            <strong>Dykning med tydlig säkerhet</strong>
+            Dykpassen samordnas med buddy-system, säkerhetsrutiner och
+            nivåanpassning i fokus.
+          </li>
+          <li>
+            <strong>Deltagarna skapar innehållet</strong>
+            Initiativ som coachning, workshops, gemensamma måltider och andra
+            aktiviteter växer fram ur gruppen.
+          </li>
+          <li>
+            <strong>Eget ansvar</strong>
+            Var och en ordnar resa, boende på eller nära Fossens Camping,
+            mat och personlig utrustning.
+          </li>
+          <li>
+            <strong>En första provomgång</strong>
+            Vi testar formatet i mindre skala och utvecklar det tillsammans
+            inför möjliga framtida helger.
+          </li>
         </ul>
       </div>
     </section>
-    <section id="anmalan">
+
+    <section class="signup" id="anmalan">
       <div class="container">
-        <div class="info-card">
+        <div class="signup-card">
           <p class="eyebrow">Kort information</p>
           <h2>Anmälan</h2>
+
           <div class="info-grid">
-            <div class="info-item"><span>Datum</span>14–16 augusti 2026</div>
-            <div class="info-item"><span>Plats</span>Fossens Camping, Gullmarn</div>
-            <div class="info-item"><span>Kostnad</span>Ingen deltagaravgift. Eget boende, resa och mat.</div>
-            <div class="info-item"><span>Förkunskapskrav</span>Genomförd CMAS One Star Apnea eller motsvarande fridykningskurs.</div>
+            <div class="info-item">
+              <span>Datum</span>
+              14–16 augusti 2026
+            </div>
+
+            <div class="info-item">
+              <span>Plats</span>
+              Fossens Camping, Gullmarn
+            </div>
+
+            <div class="info-item">
+              <span>Kostnad</span>
+              Ingen deltagaravgift. Eget boende, resa och mat.
+            </div>
+
+            <div class="info-item">
+              <span>Förkunskapskrav</span>
+              Genomförd CMAS One Star Apnea eller motsvarande fridykningskurs.
+            </div>
           </div>
-          <p>Det här är en begränsad provomgång. Skicka ett mejl med några rader om din fridykningsbakgrund och hur du skulle vilja bidra under helgen.</p>
-          <a class="button" href="mailto:info@djuphelg.se?subject=Intresseanmälan%20Djuphelg%202026">Anmäl intresse via mejl</a>
-          <p class="small">Kontakt: <a href="mailto:info@djuphelg.se">info@djuphelg.se</a></p>
+
+          <p>
+            Det här är en begränsad provomgång. Skicka ett mejl med några rader
+            om din fridykningsbakgrund och hur du skulle vilja bidra under helgen.
+          </p>
+
+          <a
+            class="button"
+            href="mailto:info@djuphelg.se?subject=Intresseanmälan%20Djuphelg%202026"
+          >
+            Anmäl intresse via mejl
+          </a>
+
+          <p class="small">
+            Kontakt: <a href="mailto:info@djuphelg.se">info@djuphelg.se</a>
+          </p>
         </div>
       </div>
     </section>
   </main>
-  <footer><div class="container">Djuphelg – Gullmarn · 2026</div></footer>
+
+  <footer>
+    <div class="container">Djuphelg – Gullmarn · 2026</div>
+  </footer>
 </body>
 </html>
