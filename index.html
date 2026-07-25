@@ -4,6 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Djuphelg – Gullmarn, en deltagardriven fridykningshelg 14–16 augusti 2026 vid Fossens Camping.">
+  <link rel="canonical" href="https://djuphelg.se/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sv_SE">
+  <meta property="og:site_name" content="Djuphelg">
+  <meta property="og:title" content="Djuphelg - Gullmarn">
+  <meta property="og:description" content="En deltagardriven fridykningshelg vid Gullmarn 14-16 augusti 2026.">
+  <meta property="og:url" content="https://djuphelg.se/">
+  <meta property="og:image" content="https://djuphelg.se/assets/og-image.jpg">
+  <meta property="og:image:url" content="https://djuphelg.se/assets/og-image.jpg">
+  <meta property="og:image:secure_url" content="https://djuphelg.se/assets/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Solen över vattnet vid Gullmarn.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Djuphelg - Gullmarn">
+  <meta name="twitter:description" content="En deltagardriven fridykningshelg vid Gullmarn 14-16 augusti 2026.">
+  <meta name="twitter:image" content="https://djuphelg.se/assets/og-image.jpg">
   <meta name="theme-color" content="#071a1d">
   <title>Djuphelg – Gullmarn</title>
 
@@ -246,6 +267,24 @@
       text-transform: uppercase;
     }
 
+    .place-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 10px;
+      align-items: baseline;
+    }
+
+    .place-links a {
+      font-weight: 700;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .place-links .map-link {
+      color: var(--sea);
+      font-size: 0.95rem;
+    }
+
     .signup-card .button {
       margin-top: 12px;
       background: var(--sun);
@@ -343,7 +382,7 @@
           <li>
             <strong>Eget ansvar</strong>
             Var och en ordnar resa, boende, mat och personlig utrustning. Helgen utgår från
-            <a href="https://fossencamping.se/" target="_blank" rel="noopener">Fossens Camping</a>
+            <a href="https://fossencamping.se/" target="_blank" rel="noopener noreferrer">Fossens Camping</a>
             och tanken är att de flesta bor där, men det går också bra att lösa boende på annat sätt.
           </li>
           <li>
@@ -417,8 +456,11 @@
             </div>
             <div class="info-item">
               <span>Plats</span>
-              <a href="https://fossencamping.se/" target="_blank" rel="noopener">Fossens Camping</a>, Gullmarn <br>
-			  <a href="https://maps.app.goo.gl/3barSaD9zeQ4dHAH7" target="_blank" rel="noopener">Karta</a>
+              <div class="place-links">
+                <a href="https://fossencamping.se/" target="_blank" rel="noopener noreferrer">Fossens Camping</a>
+                <span>Gullmarn</span>
+                <a class="map-link" href="https://maps.app.goo.gl/3barSaD9zeQ4dHAH7" target="_blank" rel="noopener noreferrer">Öppna karta</a>
+              </div>
             </div>
             <div class="info-item">
               <span>Kostnad</span>
@@ -439,7 +481,7 @@
             class="button"
             href="https://forms.gle/61C4yt1fkdc4LoJy9"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Anmäl dig
           </a>
